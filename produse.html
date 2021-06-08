@@ -1,0 +1,194 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+    <title>Vilgun</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+    <link href="assets\css\hexa.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <ul>
+                <a href="index.html"><li>Acasa</li></a>
+                <a href="produse.html"><li>Produse</li></a>
+                <a href="index.html">
+                    <li><img src="assets\img\logo.png" class="logo"></img></li>
+                </a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="despre.html"><li>Despre</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="product-center">
+            <ul id="categories" class="clr">
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li class="pusher"></li>
+                <li>
+                    <div class="first-row">
+                        <img src="assets\img\1.jpg" alt=""/>
+                        <h1>Cercei cu margele</h1>
+                        <p>din onix, pandantive din argint si tortite din otel inoxidabil</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="first-row">
+                        <img src="assets\img\2.jpg" alt=""/>
+                        <h1>Cercei din argint</h1>
+                        <p>si margele din labradorite</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="second-row">
+                        <img src="assets\img\3.jpg" alt=""/>
+                        <h1>Amuleta din argint</h1>
+                        <p>tietan si lant din inox</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="second-row">
+                        <img src="assets\img\4.jpg" alt=""/>
+                        <h1>Inel de argint</h1>
+                        <p>din alama placat cu argint si cabchon din ametist</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="second-row">
+                        <img src="assets\img\5.jpg" alt=""/>
+                        <h1>Cercei cu cranii</h1>
+                        <p>din portelan, bile din onix si tortite din argint</p>
+                    </div>
+                </li>
+                <li class="pusher"></li>
+                <li>
+                    <div class="third-row">
+                        <img src="assets\img\6.jpg" alt=""/>
+                        <h1>Cercei din argint</h1>
+                        <p>si margele din onix</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="third-row">
+                        <img src="assets\img\7.jpg" alt=""/>
+                        <h1>Cercei</h1>
+                        <p>din otel inoxidabil</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- javascript code -->
+
+<script type="text/javascript">
+
+</script>
+
+<!-- add css style -->
+
+<style>
+
+    *{
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .header {
+        width: 98%;
+        height: 20%;
+        background-color: #F5F5F5;
+        background-size: cover;
+        margin: auto;
+        margin-top: 1%;
+    }
+
+    .navbar {
+        width: 98%;
+        padding: 20px;
+        top: 0px;
+        text-align: center;
+        transition: .5s;
+        margin: auto;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 10px 50px;
+        color: black;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul li:hover {
+        color: #16A6B6;
+    }
+
+    .content {
+        width: 98%;
+        height: 81.8%;
+        background-color: #F5F5F5;
+        background-size: cover;
+        margin: auto;
+        margin-bottom: 1%;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .product-center {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3%;
+        margin-left: 21.6%;
+    }
+
+    .first-row {
+        animation: fadeIn 2s;
+    }
+
+    .second-row {
+        animation: fadeIn 2.2s;
+    }
+
+    .third-row {
+        animation: fadeIn 2.4s;
+    }
+</style>
